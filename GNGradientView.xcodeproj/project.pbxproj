@@ -10,6 +10,7 @@
 		EE52084E19F5F58A00748D9D /* GNGradientView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE52084D19F5F58A00748D9D /* GNGradientView.h */; };
 		EE52085019F5F58A00748D9D /* GNGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52084F19F5F58A00748D9D /* GNGradientView.m */; };
 		EE52086419F5F5F900748D9D /* UIView+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52086319F5F5F900748D9D /* UIView+Gradient.m */; };
+		EE52086619F5F96700748D9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE52086519F5F96700748D9D /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,7 @@
 		EE52086119F5F5BA00748D9D /* GNGradientView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GNGradientView.podspec; sourceTree = "<group>"; };
 		EE52086219F5F5F900748D9D /* UIView+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gradient.h"; sourceTree = "<group>"; };
 		EE52086319F5F5F900748D9D /* UIView+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradient.m"; sourceTree = "<group>"; };
+		EE52086519F5F96700748D9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE52086619F5F96700748D9D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		EE52084119F5F58A00748D9D = {
 			isa = PBXGroup;
 			children = (
+				EE52086519F5F96700748D9D /* UIKit.framework */,
 				EE52086119F5F5BA00748D9D /* GNGradientView.podspec */,
 				EE52084C19F5F58A00748D9D /* GNGradientView */,
 				EE52085619F5F58A00748D9D /* GNGradientViewTests */,
