@@ -1,0 +1,23 @@
+{
+  "name": "GNGradientView",
+  "version": "0.0.1",
+  "summary": "UIView alpha gradient mask.",
+  "description": "UIView alpha gradient mask. Container category for UIView and UIGradientView.",
+  "homepage": "https://github.com/jakubknejzlik/GNGradientView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jakub Knejzlik": "jakub.knejzlik@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jakubknejzlik/GNGradientView.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GNGradientView/Classes/**/*",
+  "frameworks": "UIKit"
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GNGradientView_Example' do
+  pod 'GNGradientView', :path => '../'
+
+  target 'GNGradientView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

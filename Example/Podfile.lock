@@ -1,0 +1,16 @@
+PODS:
+  - GNGradientView (0.0.1)
+
+DEPENDENCIES:
+  - GNGradientView (from `../`)
+
+EXTERNAL SOURCES:
+  GNGradientView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GNGradientView: db952bcde6a7d9bbd3211d1394a01b2db412e8ec
+
+PODFILE CHECKSUM: 90a0aa9ef72ed4ccbd1b18ebf6dfb40068515c4b
+
+COCOAPODS: 1.0.1
